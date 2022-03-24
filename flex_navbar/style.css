@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    width: 1000px;
+    height: 80px;
+    background-color: #333333;
+    color: white;
+    border: 3px solid white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    margin-left: 20px;
+}
+
+.nav-links {
+    width: 40%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a {
+    color: white;
+}
+
+.btn {
+    height: 35px;
+    width: 100px;
+    background-color: #17a2b8;
+    color: white;
+    border: none;
+    box-shadow: 5px 5px black;
+}
+
