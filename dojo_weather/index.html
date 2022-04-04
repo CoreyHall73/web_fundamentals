@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DojoWeather</title>
+</head>
+<body>
+    <div id="container">
+
+        <!--Header-->
+        <div class="header">
+            <h1>DojoWeather</h1>
+            <h2 onclick="alert('Loading weather report...')">Burbank</h2>
+            <h2 onclick="alert('Loading weather report...')">Chicago</h2>
+            <h2 onclick="alert('Loading weather report...')">Dallas</h2>
+        </div>
+
+        <!--Current City and Temp-->
+        <div class="city-header">
+            <h1>San Jose</h1>
+            <h4>show temperature in <select name="temp" id="temp-select"><option value="">C°</option>
+            <option value="">F°</option></select></h4>
+        </div>
+        <div id="line">
+
+        </div>
+        <!--Main Area-->
+        <div id="main">
+            <!--Day Boxes-->
+            <div id="box1">
+                <h2>Today</h2>
+                <img class="weather-img" src="assets/some_rain.png" alt="rain">
+                <h4 class="description">some rain</h4>
+                <div class="temps">
+                    <h2 class="red">24°</h2>
+                    <h2 class="blue">18°</h2>
+                </div>
+            </div>
+            <div id="box2">
+                <h2>Tomorrow</h2>
+                <img class="weather-img" src="assets/some_sun.png" alt="sun">
+                <h4 class="description">some sun</h4>
+                <div class="temps">
+                    <h2 class="red">27°</h2>
+                    <h2 class="blue">19°</h2>
+                </div>
+            </div>
+            <div id="box3">
+                <h2>Friday</h2>
+                <img class="weather-img" src="assets/some_clouds.png" alt="sun">
+                <h4 class="description">some clouds</h4>
+                <div class="temps">
+                    <h2 class="red">21°</h2>
+                    <h2 class="blue">16°</h2>
+                </div>
+            </div>
+            <div id="box4">
+                <h2>Saturday</h2>
+                <img class="weather-img" src="assets/some_sun.png" alt="sun">
+                <h4 class="description">some sun</h4>
+                <div class="temps">
+                    <h2 class="red">26°</h2>
+                    <h2 class="blue">21°</h2>
+                </div>
+            </div>
+
+            <!--Cookie Alert-->
+            <div id="message">
+                <div id="cookie-header">
+                    <h3>Stop! Cookie time</h3>
+                </div>
+                <div class="alert-header"><span><img id="alert-img" src="assets/cookie.png" alt="alert"></span><span>×</span></div>
+                <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="#">Read more...</a></p>
+                <button onclick="remove()">I accept</button>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

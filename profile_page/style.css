@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 1000px;
+    min-height: 200px;
+    background-color: beige;
+    margin: 50px;
+}
+
+.header {
+    display: flex;
+    background-color: black;
+    height: 40px;
+    color: white;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.nav-links > li > a {
+    color: white;
+}
+
+.nav-links {
+    color: white;
+    display: flex;
+    list-style: none;
+    width: 400px;
+    justify-content: space-around;
+    margin-right: 500px;
+    margin-top: 8px;
+}
+
+#sign-out {
+    height: 35px;
+    width: 100px;
+    background-color: #17a2b8;
+    color: white;
+    border: none;
+    box-shadow: 5px 5px black;
+}
+
+#row {
+    display: flex;
+}
+
+.col-1 {
+    flex: 3;
+}
+
+.col-2 {
+    flex: 2;
+}
+
+.top-left-card {
+    border: solid 1px black;
+    width: 550px;
+    margin-bottom: 30px;
+}
+
+.user-header {
+    background-color: aqua;
+    padding: 20px;
+    margin-bottom: 15px;
+    height: 50px
+}
+
+.body {
+    height: 200px;
+    padding: 20px;
+}
+
+.user-header > img {
+    height: 70px;
+    margin-top: 30px;
+    border: solid 3px white;
+    border-radius: 50%;
+}
+
+h3 > img, a > img {
+    height: 15px;
+}
+
+h1, h3, p {
+    margin-bottom: 15px;
+}
+
+.top-right-card {
+    border: solid 1px black;
+    width: 338px;
+    margin-bottom: 30px;
+}
+
+.connection-header {
+    background-color: gray;
+    color: white;
+    padding: 20px; 
+    height: 25px;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#top-person, #bottom-person {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+#friend-icon {
+    height: 40px
+}
+
+.bottom-right-card {
+    border: solid 1px black;
+    width: 338px;
+}
+
+.your-connect-header {
+    background-color: gray;
+    color: white;
+    padding: 20px; 
+    height: 25px;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#first-person, #second-person, #third-person, #fourth-person {
+    display: flex;
+    justify-content: flex-start;
+    width: 300px;
+    margin-bottom: 30px;
+    margin-left: 12px;
+}
+
+#first-person > h1, #second-person > h1, #third-person > h1, #fourth-person > h1 {
+    margin-left: 20px;
+}
+
+.bottom-left-card {
+    border: solid 1px black;
+    width: 550px;
+}
+
+.education-header {
+    background-color: gray;
+    color: white;
+    padding: 20px; 
+    height: 15px;
+    width: 510px;
+    text-align: center;
+}
+
+.education-header > h1 {
+    margin-bottom: 5px;
+}
+
+.education-body {
+    padding: 20px
+}
+

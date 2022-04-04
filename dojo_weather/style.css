@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    font-family: sans-serif;
+    width: 1000px;
+    min-height: 200px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    background-color: aqua;
+    color: white;
+    align-items: center;
+    height: 80px;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.header > h1 {
+    margin-right: 200px;
+}
+
+.city-header {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 860px;
+    margin-bottom: 15px;
+}
+
+#line {
+    margin: 0 auto;
+    width: 860px;
+    background-color: gray;
+    height: 1px;
+    box-shadow: 1px 1px 1px;
+    margin-bottom: 40px;
+}
+
+#main {
+    margin: 0 auto;
+    width: 860px;
+    min-height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#box1, #box2, #box3, #box4 {
+    height: 275px;
+    width: 175px;
+    background-color: lightgray;
+    /* align-items: center; */
+}
+
+#box1 > h2, #box2 > h2, #box3 > h2, #box4 > h2 {
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.weather-img {
+    height: 125px;
+    border-radius: 50%;
+    margin-left: 23px;
+    margin-bottom: 15px;
+}
+
+.description {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.temps {
+    display: flex;
+    justify-content: space-around;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+#message {
+    background-color: white;
+    border: solid 2px black;
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 190px; 
+    width: 860px;
+    box-shadow: 3px 3px black;
+}
+
+#message > button {
+    color: white;
+    background-color: aqua;
+    width: 75px;
+    box-shadow: 2px 2px black;
+    height: 35px;
+}
+
+#message > p {
+    width: 400px;
+}
+
+#alert-img {
+    width: 50px;
+}
+
+#cookie-header {
+    display: block;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Likes2</title>
+</head>
+<body>
+    <div id="container">
+
+        <!--Network Bar-->
+        <div id="top-bar">
+            <h1>Network</h1>
+        </div>
+
+        <!--Header-->
+        <div id="header">
+            <h1>Your Feed</h1>
+        </div>
+
+        <!--Left/Right Columns-->
+        <div class="row">
+
+            <!--Left Column-->
+            <div id="col1">
+                <div id="user-info">
+                    <img src="assets/abstract-user-flat-4.png" alt="Profile Picture">
+                    <a href="">Add an avatar</a>
+                    <h3>James Doe</h3>
+                </div>
+            </div>
+
+            <!--Right Column-->
+            <div id="col2">
+
+                <!--Top Card-->
+                <div id="top-card">
+                    <div class="feed-card">
+                        <h2>Neil M</h2>
+                        <h3 id="likes1">9 like(s)</h3>
+                        <button id="like-button1" onclick="addLikeTop()">Like</button>
+                    </div>
+                    <div>
+                        <p>I just set up this new discord bot, let me know what you all think. <a href="">link</a></p>
+                    </div>
+                </div>
+
+                <!--Middle Card-->
+                <div id="middle-card">
+                    <div class="feed-card">
+                        <h2>Nichole K</h2>
+                        <h3 id="likes2">12 like(s)</h3>
+                        <button id="like-button2" onclick="addLikeMiddle()">Like</button>
+                    </div>
+                    <div>
+                        <p>Just finished my  <a href="">next comic</a>, check it out.</p>
+                    </div>
+                </div>
+
+                <!--Bottom Card-->
+                <div id="bottom-card">
+                    <div class="feed-card">
+                        <h2>Jim R</h2>
+                        <h3 id="likes3">9 like(s)</h3>
+                        <button id="like-button3" onclick="addLikeBottom()">Like</button>
+                    </div>
+                    <div>
+                        <p>I can't stop listening to the <a href="">new album</a>. Who else is liking it?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

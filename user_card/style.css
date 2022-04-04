@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width: 800px;
+    min-height: 200px;
+    margin: 50px;
+}
+
+.info-card {
+    border: solid 1px black;
+}
+
+.header {
+    background-color: aqua;
+    padding: 20px;
+    margin-bottom: 15px;
+    height: 50px
+}
+
+.body {
+    height: 200px;
+    padding: 20px;
+}
+
+.header > img {
+    height: 70px;
+    margin-top: 30px;
+    border: solid 3px white;
+    border-radius: 50%;
+}
+
+h3 > img, a > img {
+    height: 15px;
+}
+
+h1, h3, p {
+    margin-bottom: 15px;
+}

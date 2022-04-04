@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 800px;
+    min-height: 200px;
+    background-color: white;
+    padding: 50px;
+}
+
+#top-bar {
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+
+#header {
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+.row {
+    display: flex;
+}
+
+#col1 {
+    flex: 1;
+    text-align: center;
+    justify-content: space-around;
+    margin-right: 20px;
+    border: solid 2px black;
+    height: 270px;
+    margin-top: 20px;
+}
+
+#user-info {
+    list-style: none;
+    align-items: center;
+
+}
+
+#user-info > img, #user-info > a, #user-info > h3 {
+    display: block;
+    margin-top: 30px;
+}
+
+#col2 {
+    display: block;
+    flex: 2;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#like-button1, #like-button2, #like-button3 {
+    color: black;
+    background-color: rgb(195, 205, 50);
+    width: 50px;
+    box-shadow: 2px 2px black;
+    height: 25px;
+}
+
+p {
+    padding: 20px;
+    width: 290px;
+}
+
+#top-card, #middle-card, #bottom-card {
+    border: solid 2px black;
+    margin-bottom: 20px;
+}
+
+.feed-card {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.feed-card > h3 {
+
+}
+
+img {
+    height: 75px;
+    padding-left: 85px;
+}
+

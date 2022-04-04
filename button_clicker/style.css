@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 800px;
+    min-height: 200px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    padding: 15px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#logBtn {
+    color: white;
+    background-color: aqua;
+}
+
+.nav > input {
+    border: solid black 1px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-card {
+    display: flex;
+    border: solid black 3px;
+    flex: 2;
+    height: 150px;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+.left-side {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+/* .left-side > * {
+    vertical-align: middle;
+} */
+
+.right-side {
+    flex: 2;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+p {
+    width: 200px;
+}
+
+.def-card {
+    border: solid black 3px;
+    flex: 1;
+    margin-left: 40px;
+    height: 100px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#add-def {
+    color: black;
+    background-color: lightgreen;
+    box-shadow: 3px 3px 3px black;
+    margin-top: 10px;
+}
+
+.bottom-card {
+    display: flex;
+    border: solid black 3px;
+    height: 150px;
+    width: 500px;
+}
+
+#top-like, #bottom-like {
+    background-color: rgb(205, 195, 50);
+    width: 70px;
+    margin-left: 50px;
+    box-shadow: 3px 3px 3px black;
+}
+
+
+

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Belt Exam</title>
+</head>
+<body>
+    <div id="container">
+        <!--Nav Bar Header-->
+        <div class="nav-bar">
+            <img src="assets/leaf.png" alt="leaf logo" id="leaf">
+            <h1>EasyBay</h1>
+            <input type="text" name="search" placeholder="   Search for anything">
+            <h3>Sign In</h3>
+            <img onclick="alert('Your Cart is empty!')" id="cart-img" src="assets/cart-dark.png" alt="cart logo">
+        </div>
+        <!--Anchor Header-->
+        <div class="link-header">
+            <ul class="links">
+                <li><a class="head-link" href="#">Aeonium</a></li>
+                <li><a class="head-link" href="#">Andormischus</a></li>
+                <li><a class="head-link" href="#">Agave</a></li>
+                <li><a class="head-link" href="#">Aloe</a></li>
+                <li><a class="head-link" href="#">Anacampseros</a></li>
+                <li><a class="head-link" href="#">Aristaloe</a></li>
+                <li><a class="head-link" href="#">More...</a></li>
+            </ul>
+        </div>
+        <!--Black Line-->
+        <div id="line"></div>
+        <!--Text Header-->
+        <div id="text-header">
+            <h1>Your Source for Serious Succulent Specialties</h1>
+        </div>
+        <!--Row 1-->
+        <div class="row1">
+            <!--Column 1-->
+            <div class="box1">
+                <div id="top-text">
+                    <h2>Discover succulent varieties one pot or rack at a time!</h2>
+                </div>
+                <div id="bottom-text">
+                    <h1>Discover</h1> 
+                    <img class="arrow" src="assets/arrow-light.png" alt="arrow">
+                </div>
+            </div>
+            <!--Column 2-->
+            <div onmouseover="over(this)" onmouseout="out(this)" class="box2">
+                <img id="firstImage" src="assets/succulents-1.jpg" alt="plants">
+            </div>
+            <!--Column 3-->
+            <div class="box3">
+                <div class="img-box">
+                    <div id="right-side-img"><img src="assets/aloe-m.jpg" alt="plant"></div>
+                </div>
+                <div class="link-box">
+                    <h3>Soothing Aloe</h3>
+                    <img class="arrow" src="assets/arrow-light.png" alt="arrow">
+                </div>
+            </div>
+        </div>
+        <!--Row 2-->
+        <div class="bottom-box">
+            <!--Picture Row-->
+            <div class="pictures">
+                <img class="round-pic" src="assets/aeonium-s.jpg" alt="plant photo">
+                <img class="round-pic" src="assets/aloe-s.jpg" alt="plant photo">
+                <img class="round-pic" src="assets/cactus-s.jpg" alt="plant photo">
+                <img class="round-pic" src="assets/echeveria-s.jpg" alt="plant photo">
+                <img class="round-pic" src="assets/sedum-s.jpg" alt="plant photo">
+                <img class="round-pic" src="assets/sempervivum-s.jpg" alt="plant photo">
+            </div>
+            <!--Text Row-->
+            <div class="picture-text">
+                <h4 id="first">Aeonium</h4>
+                <h4 id="second">Aloe</h4>
+                <h4 id="third">Cactus</h4>
+                <h4 id="t-last">Echeveria</h4>
+                <h4 id="s-last">Sedum</h4>
+                <h4 id="last">Sempervivum</h4>
+            </div>
+        </div>
+        <!--Alert-->
+        <div id="message">
+            <div class="alert-header"><span><img id="alert-img" src="assets/alert-dark.png" alt="alert"></span><span>×</span></div>
+            <p>This site makes use of third-party cookies, by clicking "I accept" you agree to the terms outlined in our <a href="#">cookie policy</a></p>
+            <button onclick="remove()">I accept</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

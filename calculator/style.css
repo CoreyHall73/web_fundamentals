@@ -1,0 +1,14 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+
+
+#calculator {
+    margin: auto 0;
+    /* background-color: black; */
+}
+
+#display {
+    /* text-align: right; */
+}
